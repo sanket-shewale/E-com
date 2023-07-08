@@ -735,12 +735,12 @@ padding: 14px;
     font-size: 20px;
 }
 #login .rform button{
-    padding: 12px;
-    width: 30%;
-    font-size: 30px;
+    padding: 2px;
+    width: 21%;
+    font-size: 27px;
     font-weight: 900;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 5px;
     border: none;
     transition: 0.3s;
 }

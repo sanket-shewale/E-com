@@ -15,11 +15,11 @@ if(close){
 
 // single page javascript for img change 
 var MainImg =document.getElementById("MainImg");
-var smallimg = document.getElementsByClassName("small-img-col");
+var smallimg = document.getElementsByClassName("small-img");
 
 smallimg[0].onclick = function(){
-    console.log(document.getElementsByClassName("small-img-col")[0].src)
-    MainImg.src =document.getElementsByClassName("small-img-col")[0].src;
+    console.log(document.getElementsByClassName("small-img")[0].src)
+    MainImg.src =document.getElementsByClassName("small-img")[0].src;
 }
 smallimg[1].onclick = function(){
     MainImg.src = smallimg[1].src;
